@@ -1,0 +1,39 @@
+body {
+    font-family: Courier New, sans-serif;
+    background-color: #022452; /* Warna latar belakang */
+    color: #DCEBFF; /* Warna teks */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Membuat elemen body menggunakan display flex */
+    justify-content: center; /* Pusatkan elemen child secara horizontal */
+    align-items: center; /* Pusatkan elemen child secara vertikal */
+    min-height: 100vh; /* Pastikan body setidaknya mengambil seluruh tinggi viewport */
+    flex-direction: column; /* Mengatur arah layout menjadi vertikal */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 10px; /* Menambahkan jarak antara header dan main */
+}
+
+h1 {
+    font-size: 36px; /* Perbesar ukuran teks header */
+    padding: 20px 0;
+    margin: 0; /* Hapus margin pada teks header */
+}
+
+main {
+    max-width: 800px;
+    margin-top: 0px; /* Menambahkan jarak antara header dan main */
+    padding: 20px;
+}
+
+h2, p {
+    text-align: center; /* Pusatkan teks */
+    margin-bottom: 10px; /* Beri jarak antara setiap paragraf */
+}
+
+header h1 {
+    font-size: 36px; /* Perbesar ukuran teks "Contact" */
+    margin-bottom: 10px; /* Menambahkan jarak antara header dan main */
+}
