@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 *{ 
     margin: 0;
     padding: 0;
@@ -319,57 +318,3 @@ form btn2{
 .copyright i{
     color: #ff004f;
 }
-=======
-body {
-    font-family: Courier, sans-serif;
-    background-color: #022452; /* Warna latar belakang */
-    margin: 0;
-    padding: 0;
-    display: flex; /* Membuat elemen body menggunakan display flex */
-    justify-content: center; /* Pusatkan elemen child secara horizontal */
-    align-items: center; /* Pusatkan elemen child secara vertikal */
-    min-height: 100vh; /* Pastikan body setidaknya mengambil seluruh tinggi viewport */
-}
-
-header {
-    background-color: transparent; /* Menghilangkan kotak latar belakang pada header */
-    color: #DCEBFF; /* Warna teks header */
-    text-align: center;
-    padding: 20px 0;
-}
-
-h1 {
-    margin: 0;
-}
-
-main {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-h2, p {
-    color: #DCEBFF; /* Warna teks */
-    text-align: center; /* Pusatkan teks */
-    font-size: 78px; /* Ubah ukuran font */
-}
-
-.button-container {
-    text-align: center; /* Pusatkan tombol-tombol */
-    margin-top: 50px; /* Beri jarak dari atas */
-}
-
-.button {
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 10px; /* Beri jarak antara tombol */
-    background-color: #3498db; /* Warna tombol */
-    color: #ffffff; /* Warna teks tombol */
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-.button:hover {
-    background-color: #2980b9; /* Warna tombol saat dihover */
-}
->>>>>>> 20ca6fa9c0a34545f0be50bc12fcd701a79f6e6c
