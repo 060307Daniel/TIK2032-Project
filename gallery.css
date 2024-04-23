@@ -1,0 +1,42 @@
+body {
+    font-family: Courier New, sans-serif;
+    background-color: #022452; /* Warna latar belakang */
+    color: #DCEBFF; /* Warna teks */
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    font-family: Courier New, sans-serif;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+table {
+    width: 90%;
+}
+
+table img {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px; /* Atur jarak antara gambar-gambar */
+    max-width: 100%; /* Mengatur ukuran gambar agar tidak terlalu besar */
+    height: auto;
+}
+
+figcaption {
+    text-align: center;
+}
+
+/* Menentukan ukuran yang tetap untuk setiap gambar */
+table img {
+    width: 100%; /* Membuat lebar gambar menjadi 100% */
+    height: auto; /* Mengatur tinggi gambar secara otomatis sesuai proporsi aslinya */
+}
