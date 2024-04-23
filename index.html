@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Latihan</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8b41fcfeb4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Hobby</a></li>
+                <li><a href="#portfolio">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Selamat Datang di Personal Page</p>
+            <h1>Halo! Saya <span>Daniel</span><br>  Seorang Mahasiswa IT</h1>
+        </div>
+    </div>
+</div>
+<!------------about------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Biasa dipanggil Dan atau Dani, nama lengkapku adalah Daniel Nicholas Stefanus Lantang. Aku sendiri lahir di Manado, tepatnya pada 15 November 2024. Sekarang aku adalah seorang Mahasiswa Teknik Informatika di Universitas Sam Ratlangi. Hobby ku sendiri adalah mendesign dan tidur.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Canva</span><br>Mampu membuat sebuah tampilan Poster dan Pamflet atau yang lainnya dengan menarik</li>
+                        <li><span>Microsoft Powerpoint</span><br>Mampu membuat sebuah presentasi yang menarik dan dapat dipahami</li>
+                        <li><span>Public Speaking</span><br>Mampu berbicara di depan umum</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023-Sekarang</span><br>Anggota Multimedia Paroki</li>
+                        <li><span>2023-Sekarang</span><br>Koordinator Multimedia OMK Rayon</li>
+                        <li><span>2023-2023</span><br>Anggota Divisi Multimedia</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2019-2022</span><br>Jurusan MIPA SMA Rex Mundi Manado</li>
+                        <li><span>2021-2021</span><br>RMIT University 2021 Summer School</li>
+                        <li><span>2022-Sekarang</span><br>Jurusan Elektro Prodi IT FATEK UNSRAT</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------Artikel------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Artikel Mengenai Hobby Saya</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-hands-praying"></i>
+                <h2>Berdoa</h2>
+                <p>Sebagai seorang yang beriman kepada Kristus, tentu saja saya sangat senang untuk dapat berbicara dengan Tuhan saya yaitu lewat berdoa. Saya sangat menyukai berdoa, selain menjadi kesempatan untuk berbicara dengan yang mahakuasa, berdoa juga membuat hati saya meresa lebih tenang dan nyaman. Berdoa adalah hobby saya yang paling utama dan paling penting bagi saya.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-pen"></i>
+                <h2>Designer</h2>
+                <p>Bagi saya design adalah kesempatan bagi saya untuk menyalurkan kreativitas saya. Saya sering membuat design poster/pamflet/konten yang menarik lainnya untuk salah satu organisas gereja saya. Saat mendesign, aku merasa sangat berada di dalam zona nyaman, karena aku bisa tanpa batas menyalurkan kreativitasku. Di sela-sela kesibukan kuliahku, aku gunakan waktu itu untuk membuat sebuah design dan lebih mengasah kreativitasku.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-road"></i>
+                <h2>Jalan-jalan</h2>
+                <p>Kata orang manado, istilahnya kaki gatal. Saya sangat senang dapat berjalan-jalan kemana saja mau dekat atau jauh. Bagi saya, daripada diam di rumah kenapa tidak mengeksplore</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------portfolio------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Gallery Ku</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/katedral.jpeg">
+                <div class="layer">
+                    <h3>Gereja Katolik Katedral Hati Tersuci Maria Manado</h3>
+                    <p>Sejak 1932</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/kapel.jpeg">
+                <div class="layer">
+                    <h3>Kapel Adorasi Abadi Manado</h3>
+                    <p>Sejak 1921</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/ignatius.jpeg">
+                <div class="layer">
+                    <h3>Gereja Katolik Paroki Santo Ignatius Manado</h3>
+                    <p>Sejak 1954</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!--------------contact----------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> daniellantang026@unsrat.ac.id</p>
+                <p><i class="fa-solid fa-square-phone"></i> 08121253654765765</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div> 
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright ©2024 Daniel. <i class="fa-solid fa-heart"></i> All Rights Reserved</p>
+    </div>
+</div>
+
+<script>
+    
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+<script>
+    const scriptURL = '<https://script.google.com/macros/s/AKfycbykYU17kOk2gPb8sv_6JECNuz4vhR5mW_YEpP0v57HE7aFlIUEPWQMx0XxityTSMOsmAQ/exec>'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
